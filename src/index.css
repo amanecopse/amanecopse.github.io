@@ -1,13 +1,7 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  background: url("./Images/hufs_main_hall.jpg"); /*백그라운드 위치 옵션을 center 정중앙에 위치 */
+  background-position: center center; /*기본적으로 백그라운드의 옵션은 repeat이다. */
+  background-repeat: no-repeat; /* 백그라운드 이미지를 보여주기 위한 크기 옵션 */
+  background-size: cover;
+  background-attachment: fixed;
 }

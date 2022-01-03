@@ -1,23 +1,87 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import hufs_main_hall from "./Images/hufs_main_hall.jpg";
+import Menu from "./Components/Menu";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <img
+        src={hufs_main_hall}
+        style={
+          {
+            //   minWidth: "100%",
+            //   minHeigth: "100%",
+            //   width: "auto",
+            //   height: "100%",
+            //   position: "fixed",
+            //   zIndex: -1,
+            //   display: "block",
+            //   margin: "auto",
+          }
+        }
+        alt="no pics"
+      ></img> */}
+
+      <Menu></Menu>
+      <Container>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+        <div>aaaaaaaaaaaaaaaaaaaa</div>
+      </Container>
     </div>
   );
 }

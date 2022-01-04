@@ -4,26 +4,41 @@ function Menu() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">Lim Juhyon's Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <NavDropdown title="Dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+            <Nav.Link href="#profile">Profile</Nav.Link>
+            <Nav.Link href="#education">Education</Nav.Link>
+            <NavDropdown title={"Skills & Expertise"}>
+              <NavDropdown.Item href="#action/3.1">
+                Programming Languages
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+              <NavDropdown.Header>
+                Embedded System
+                <NavDropdown.Item href="#action/3.1">
+                  Cortex m3
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.1">Arduino</NavDropdown.Item>
+              </NavDropdown.Header>
+              <NavDropdown.Header>
+                Web
+                <NavDropdown.Item href="#action/3.1">Node.js</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.1">React</NavDropdown.Item>
+              </NavDropdown.Header>
+              <NavDropdown.Header>
+                Mobile Application
+                <NavDropdown.Item href="#action/3.1">Android</NavDropdown.Item>
+              </NavDropdown.Header>
+              <NavDropdown.Header>
+                Game
+                <NavDropdown.Item href="#action/3.1">Unity</NavDropdown.Item>
+              </NavDropdown.Header>
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="#contact">Contact</Nav.Link>\
+            <Nav.Link href="#contacts">Contacts</Nav.Link>\
           </Nav>
         </Navbar.Collapse>
       </Container>

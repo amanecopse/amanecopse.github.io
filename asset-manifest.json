@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/myPortfolio/static/css/main.bbfee28f.css",
+    "main.js": "/myPortfolio/static/js/main.a629451d.js",
+    "static/js/787.d0402c9e.chunk.js": "/myPortfolio/static/js/787.d0402c9e.chunk.js",
+    "static/media/hufs_main_hall.jpg": "/myPortfolio/static/media/hufs_main_hall.a6957ac0d1805d6f237b.jpg",
+    "index.html": "/myPortfolio/index.html",
+    "main.bbfee28f.css.map": "/myPortfolio/static/css/main.bbfee28f.css.map",
+    "main.a629451d.js.map": "/myPortfolio/static/js/main.a629451d.js.map",
+    "787.d0402c9e.chunk.js.map": "/myPortfolio/static/js/787.d0402c9e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbfee28f.css",
+    "static/js/main.a629451d.js"
+  ]
+}

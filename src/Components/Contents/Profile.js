@@ -1,16 +1,9 @@
-import { Col, Container, Row } from "react-bootstrap";
-import Space from "../Space";
+import { Container } from "react-bootstrap";
+import ContentTemplate from "./ContentTemplate";
 
 function Profile() {
   return (
-    <Container
-      id="start"
-      className="bg-light border rounded"
-      style={{
-        backgroundColor: "rgba(255,255,255,0.8)",
-      }}
-    >
-      <Space size={1}></Space>
+    <ContentTemplate id="profile">
       <Container fluid>
         <h3>
           Profile
@@ -44,7 +37,7 @@ function Profile() {
           </dd>
         </dl>
       </Container>
-    </Container>
+    </ContentTemplate>
   );
 }
 

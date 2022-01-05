@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.04403723.css",
-    "main.js": "/static/js/main.ce07504c.js",
+    "main.js": "/static/js/main.bfb6af7b.js",
     "static/js/787.d0402c9e.chunk.js": "/static/js/787.d0402c9e.chunk.js",
     "static/media/hufs_main_hall.jpg": "/static/media/hufs_main_hall.a6957ac0d1805d6f237b.jpg",
     "index.html": "/index.html",
     "main.04403723.css.map": "/static/css/main.04403723.css.map",
-    "main.ce07504c.js.map": "/static/js/main.ce07504c.js.map",
+    "main.bfb6af7b.js.map": "/static/js/main.bfb6af7b.js.map",
     "787.d0402c9e.chunk.js.map": "/static/js/787.d0402c9e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04403723.css",
-    "static/js/main.ce07504c.js"
+    "static/js/main.bfb6af7b.js"
   ]
 }

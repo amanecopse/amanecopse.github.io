@@ -6,7 +6,7 @@ import Welcome from "./Components/Welcome";
 
 function App() {
   return (
-    <div className="App">
+    <div id="home">
       <Menu></Menu>
       <Welcome></Welcome>
       <Content></Content>
